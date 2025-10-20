@@ -34,7 +34,7 @@ pip install <name of libraries>
 ```
 3. Run the main Python script:
  ```bash
-python KNearest_Neighbors.py
+python KNearest Neighbors.py
 ```
 
 ## Notes
