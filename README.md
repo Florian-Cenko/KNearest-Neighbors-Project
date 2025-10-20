@@ -1,27 +1,20 @@
-# Linear-Regression-Project
-This project focuses on applying **Linear Regression** to analyze customer behavior for an **Ecommerce company based in New York City**.
-The company sells clothing online and also offers in-store style and clothing advice sessions.
-Customers can visit the store for consultations, then purchase clothing later through the **mobile app** or **website**.
+# Knearest-Neighbors-Project
+This project applies the **K-Nearest Neighbors (KNN)** algorithm to classify data points based on their feature similarity.
+It was developed as part of the *Python for Data Science and Machine Learning Bootcamp* and serves as a practical exercise in applying a non-parametric supervised learning algorithm.
 
-The goal of this project is to determine whether the company should focus more on improving its mobile app or website experience, based on customer usage data.
+The goal of this project is to build, train, and evaluate a **KNN classification model** on a provided dataset.
 
 ## Dataset Description
-The dataset contains anonymized customer information related to their interactions with the ecommerce platform.
-Each row represents a customer and includes metrics about time spent on different channels and purchase behavior.
+The dataset (provided in the course materials) contains several numerical features along with a target class label.
+Each row represents an observation, and the task is to predict the correct class for new observations based on the distance from existing data points.
 
 ## Objectives
-- Perform exploratory data analysis (EDA) to understand key features and relationships
-- Build a **Linear Regression** model to predict yearly spending based on user activity
-- Determine which platform (mobile app or website) drives higher customer value
-- Provide actionable insights for marketing and product strategy teams
-
-  
-## Dataset Fields (example columns)
-- **Avg. Session Length:** Average session duration in minutes
-- **Time on App:** Average time spent on the mobile app
-- **Time on Website:** Average time spent on the website
-- **Length of Membership:** Years as a customer
-- **Yearly Amount Spent:** Annual spending in USD (target variable)
+- Load and explore the dataset
+- Perform Exploratory Data Analysis (EDA) and visualize patterns
+- Standardize the features for optimal KNN performance
+- Implement the K-Nearest Neighbors algorithm using scikit-learn
+- Choose the optimal value of K by evaluating model performance on validation data
+- Measure performance using metrics such as confusion matrix, accuracy, and classification report
   
 ## Tech Stack
 - Python
@@ -45,7 +38,7 @@ python linear_regression_project.py
 ```
 
 ## Notes
-- The dataset is fictional and used only for educational purposes
-- Focuses on understanding model interpretation and regression diagnostics
-- Great practice for beginners learning **machine learning** and **data analysis**
+- The dataset is included for educational use only
+- This project emphasizes **classification using distance-based learning**
+- Useful for understanding **model tuning, feature scaling, and bias-variance tradeoff**
 
