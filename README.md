@@ -1,4 +1,4 @@
-# Knearest-Neighbors-Project
+# KNearest-Neighbors-Project
 This project applies the **K-Nearest Neighbors (KNN)** algorithm to classify data points based on their feature similarity.
 It was developed as part of the *Python for Data Science and Machine Learning Bootcamp* and serves as a practical exercise in applying a non-parametric supervised learning algorithm.
 
@@ -34,7 +34,7 @@ pip install <name of libraries>
 ```
 3. Run the main Python script:
  ```bash
-python linear_regression_project.py
+python KNearest_Neighbors.py
 ```
 
 ## Notes
